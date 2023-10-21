@@ -101,6 +101,35 @@ const animationTimeline = () => {
       },
       "+=0.7"
     )
+    // .from(".ten", 0.7, {
+    //   scale: 0.2,
+    //   opacity: 0
+    // })
+    // .from(".fake-btn", 0.3, {
+    //   scale: 0.2,
+    //   opacity: 0
+    // })
+    // .staggerTo(
+    //   ".hbd-chatbox span",
+    //   0.5,
+    //   {
+    //     visibility: "visible"
+    //   },
+    //   0.05
+    // )
+    // .to(".fake-btn", 0.1, {
+    //   backgroundColor: "rgb(127, 206, 248)"
+    // })
+    // .to(
+    //   ".ten",
+    //   0.5,
+    //   {
+    //     scale: 0.2,
+    //     opacity: 0,
+    //     y: -150
+    //   },
+    //   "+=0.7"
+    // )
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-2", 0.7, ideaTextTrans)
@@ -183,7 +212,7 @@ const animationTimeline = () => {
       0.2
     )
     .from(
-      ".lydia-dp",
+      ".farishta-dp",
       0.5,
       {
         scale: 3.5,

@@ -66,6 +66,15 @@ body {
   position: relative;
 }
 
+/* .ten .text-box {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+} */
+
 .text-box p {
   margin: 0;
   text-align: left;
@@ -118,14 +127,14 @@ body {
 
 .six img {
   display: inline-block;
-  max-width: 100%;
+  max-width: 25%;
   height: auto;
 }
 
 .six .hat {
   position: absolute;
   width: 80px;
-  top: -35px;
+  top: -65px;
   left: 41.5%;
   /* transform: scale(0.1); */
 }
@@ -263,6 +272,10 @@ body {
   }
 
   .four .text-box {
+    width: 90%;
+  }
+
+  .ten .text-box {
     width: 90%;
   }
 
